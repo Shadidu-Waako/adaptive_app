@@ -28,7 +28,7 @@ final _router = GoRouter(
           builder: (context, state) {
             final title = state.uri.queryParameters['title']!;
             final id = state.pathParameters['id']!;
- return Scaffold(                                   // Modify from here
+              return Scaffold(                                   // Modify from here
               appBar: AppBar(title: Text(title)),
               body: PlaylistDetails(
                 playlistId: id,
