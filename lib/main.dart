@@ -18,8 +18,8 @@ final scopes = [
 
 // TODO: Replace with your Client ID and Client Secret for Desktop configuration
 final clientId = ClientId(
-  'TODO-Client-ID.apps.googleusercontent.com',
-  'TODO-Client-secret',
+  '716016333301-g8uk50b23r01hgd9mr867vdcrndkft8v.apps.googleusercontent.com',
+  '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',
 );
 
 final _router = GoRouter(
